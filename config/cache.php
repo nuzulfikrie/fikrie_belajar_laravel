@@ -18,7 +18,13 @@ return [
     |
     */
 
-    'default' => env('CACHE_DRIVER', 'file'),
+    //'default' => env('CACHE_DRIVER', 'file'),
+
+    /**
+     * set cache store to database
+     */
+
+    'default' => env('CACHE_DRIVER','database'),
 
     /*
     |--------------------------------------------------------------------------
